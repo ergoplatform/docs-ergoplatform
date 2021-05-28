@@ -1,6 +1,20 @@
 # Ergoplatform Documentation Website
 
-This website is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator.
+## Extending documentation
+
+In order to add a new documantation page create `.md` file in `/docs` directory. Then add sidebar settings to the file headers:
+
+`docs/hello.md`
+```
++ ---
++ sidebar_label: "Hi!"
++ sidebar_position: 3
++ ---
+
+# Hello
+
+This is my **first Docusaurus document**!
+```
 
 ## Installation
 
